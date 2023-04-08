@@ -2,11 +2,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--gray-100);
 }
 
 :root {
-  font-family: 'Roboto', sans-serif;
-
   --gray-100: #DDDDDD;
   --gray-200: #CCCCCC;
   --gray-400: #999999;
@@ -18,10 +27,4 @@
 
   --white: #fff;
   --black: #000;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
